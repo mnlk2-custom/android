@@ -14,7 +14,7 @@
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller"/>
   <project name="mnlk2-custom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="refs/heads/master"/>
-  <project name="mnlk2-custom/android_build" path="platform/build" remote="github" revision="refs/heads/master">
+  <project name="mnlk2-custom/android_build" path="build" remote="github" revision="refs/heads/master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="platform/cts" path="cts"/>
@@ -29,7 +29,7 @@
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
-  <project name="mnlk2-custom/android_external_busybox" path="platform/external/busybox" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_external_busybox" path="external/busybox" remote="github" revision="refs/heads/master"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
   <project name="platform/external/chromium" path="external/chromium"/>
   <project name="platform/external/clearsilver" path="external/clearsilver"/>
@@ -102,9 +102,9 @@
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant"/>
   <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6"/>
   <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
-  <project name="mnlk2-custom/android_external_yaffs2" path="platform/external/yaffs2" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_external_yaffs2" path="external/yaffs2" remote="github" revision="refs/heads/master"/>
   <project name="platform/external/zlib" path="external/zlib"/>
-  <project name="mnlk2-custom/android_frameworks_base" path="platform/frameworks/base" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_frameworks_base" path="frameworks/base" remote="github" revision="refs/heads/master"/>
   <project name="platform/frameworks/ex" path="frameworks/ex"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
@@ -140,11 +140,11 @@
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
-  <project name="mnlk2-custom/android_packages_apps_Settings" path="platform/packages/apps/Settings" remote="github" revision="refs/heads/master"/>  
+  <project name="mnlk2-custom/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="refs/heads/master"/>  
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
-  <project name="mnlk2-custom/android_packages_apps_Superuser" path="platform/packages/apps/Superuser" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_packages_apps_Superuser" path="packages/apps/Superuser" remote="github" revision="refs/heads/master"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
@@ -154,7 +154,7 @@
   <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider"/>
   <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider"/>
   <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider"/>
-  <project name="mnlk2-custom/android_providers_DownloadProvider" path="platform/packages/providers/DownloadProvider" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="refs/heads/master"/>
   <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider"/>
   <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider"/>
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider"/>
@@ -167,11 +167,11 @@
   <project name="platform/prebuilt" path="prebuilt"/>
   <project name="platform/sdk" path="sdk"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
-  <project name="mnlk2-custom/android_system_core" path="platform/system/core" remote="github" revision="refs/heads/master"/>
-  <project name="mnlk2-custom/android_system_extras" path="platform/system/extras" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_system_core" path="system/core" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_system_extras" path="system/extras" remote="github" revision="refs/heads/master"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/system/wlan/ti" path="system/wlan/ti"/>
-  <project name="mnlk2-custom/android_vendor_htc_passion" path="platform/vendor/htc/passion" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_vendor_htc_passion" path="vendor/htc/passion" remote="github" revision="refs/heads/master"/>
 </manifest>

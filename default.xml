@@ -5,9 +5,9 @@
   <default remote="korg" revision="refs/tags/android-2.3.3_r1a"/>
   
   <project name="device/common"/>
-  <project name="mnlk2-custom/android_htc_common" path="device/htc/common" remote="github" revision="refs/heads/master"/>
-  <project name="mnlk2-custom/android_htc_passion" path="device/htc/passion" remote="github" revision="refs/heads/master"/>
-  <project name="mnlk2-custom/android_passion_common" path="device/htc/passion-common" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_device_htc_common" path="device/htc/common" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_device_htc_passion" path="device/htc/passion" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_device_passion_common" path="device/htc/passion-common" remote="github" revision="refs/heads/master"/>
   <project name="device/sample"/>
   <project name="device/samsung/crespo"/>
   <project name="platform/bionic" path="bionic"/>

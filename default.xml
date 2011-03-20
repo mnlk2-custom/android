@@ -24,7 +24,7 @@
   <project name="platform/external/astl" path="external/astl"/>
   <project name="platform/external/bison" path="external/bison"/>
   <project name="platform/external/blktrace" path="external/blktrace"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
+  <project name="mnlk2-custom/android_external_bluetooth_bluez" path="external/bluetooth/bluez" remote="github" revision="refs/heads/master"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib"/>
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
@@ -109,8 +109,8 @@
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
+  <project name="mnlk2-custom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_hardware_msm7k" path="hardware/msm7k"/ remote="github" revision="refs/heads/master"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -128,11 +128,12 @@
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
+  <project name="mnlk2-custom/android_packages_apps_FM" path="packages/apps/FM" remote="github" revision="refs/heads/gingerbread"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
   <project name="platform/packages/apps/Gallery3D" path="packages/apps/Gallery3D"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
+  <project name="mnlk2-custom/android_packages_apps_mms" path="packages/apps/Mms" remote="github" revision="refs/heads/master"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>

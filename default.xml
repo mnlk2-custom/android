@@ -110,7 +110,7 @@
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="mnlk2-custom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="refs/heads/master"/>
-  <project name="mnlk2-custom/android_hardware_msm7k" path="hardware/msm7k"/ remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_hardware_msm7k" path="hardware/msm7k" remote="github" revision="refs/heads/master"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>

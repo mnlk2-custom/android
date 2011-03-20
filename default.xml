@@ -145,7 +145,7 @@
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
-  <project name="mnlk2-custom/android_packages_apps_Superuser" path="packages/apps/Superuser" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_packages_apps_Superuser" path="packages/apps/Superuser" remote="github" revision="refs/heads/gingerbread"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>

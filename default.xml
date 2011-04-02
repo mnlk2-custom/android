@@ -19,7 +19,7 @@
   </project>
   <project name="platform/cts" path="cts"/>
   <project name="platform/dalvik" path="dalvik"/>
-  <project name="platform/development" path="development"/>
+  <project name="mnlk2-custom/android_development" path="development" remote="github" revision="refs/heads/master"/>
   <project name="platform/external/apache-http" path="external/apache-http"/>
   <project name="platform/external/astl" path="external/astl"/>
   <project name="platform/external/bison" path="external/bison"/>

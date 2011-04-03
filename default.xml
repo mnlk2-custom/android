@@ -131,6 +131,7 @@
   <project name="mnlk2-custom/android_packages_apps_FM" path="packages/apps/FM" remote="github" revision="refs/heads/gingerbread"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
   <project name="platform/packages/apps/Gallery3D" path="packages/apps/Gallery3D"/>
+  <project name="mnlk2-custom/android_packages_apps_HeLauncher" path="packages/apps/HeLauncher" remote="github" revision="refs/heads/master"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
   <project name="mnlk2-custom/android_packages_apps_mms" path="packages/apps/Mms" remote="github" revision="refs/heads/master"/>

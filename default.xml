@@ -2,15 +2,15 @@
 <manifest>
   <remote name="korg" 
            fetch="git://android.git.kernel.org/" 
-           review="review.source.android.com"/>
+           review="review.source.android.com" />
 
   <remote name="github" 
-           fetch="git://github.com/">
+           fetch="git://github.com" />
 
   <remote name="themes"
            fetch="git://github.com/tmobile" />
 
-  <default remote="korg" revision="refs/tags/android-2.3.3_r1a"/>
+  <default remote="korg" revision="refs/tags/android-2.3.3_r1a" />
   
   <project name="device/common"/>
   <project name="mnlk2-custom/android_device_htc_common" path="device/htc/common" remote="github" revision="refs/heads/master"/>

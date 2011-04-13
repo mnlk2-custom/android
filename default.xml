@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://android.git.kernel.org/" name="korg" review="review.source.android.com"/>
-  <remote fetch="git://github.com/" name="github" review=""/>
+  <remote name="korg" 
+           fetch="git://android.git.kernel.org/" 
+           review="review.source.android.com"/>
+
+  <remote name="github" 
+           fetch="git://github.com/">
+
+  <remote name="themes"
+           fetch="git://github.com/tmobile" />
+
   <default remote="korg" revision="refs/tags/android-2.3.3_r1a"/>
   
   <project name="device/common"/>
@@ -176,4 +184,13 @@
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/system/wlan/ti" path="system/wlan/ti"/>
   <project name="mnlk2-custom/android_vendor_htc_passion" path="vendor/htc/passion" remote="github" revision="refs/heads/master"/>
+  
+<project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
+
+
 </manifest>

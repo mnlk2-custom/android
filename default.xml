@@ -184,7 +184,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project name="mnlk2-custom/android_vendor_htc_passion" path="vendor/htc/passion" remote="github" revision="refs/heads/master"/>
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="mnlk2-custom/themes-platform-vendor-tmobile-apps-ThemeChooser.git" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="mnlk2-custom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />

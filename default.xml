@@ -142,6 +142,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project name="mnlk2-custom/android_packages_apps_mms" path="packages/apps/Mms" remote="github" revision="refs/heads/master"/>
+  <project name="mnlk2-custom/android_packages_apps_NLParts" path="packages/apps/NLParts" remote="github" revision="refs/heads/master"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />

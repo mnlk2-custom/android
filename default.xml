@@ -9,7 +9,7 @@
   <remote name="themes"
            fetch="git://github.com/tmobile" />
 
-  <default remote="korg" revision="refs/tags/android-2.3.4_r1" />
+  <default remote="korg" revision="refs/tags/android-2.3.5_r1" />
 
   <project name="mnlk2-custom/android_build" path="build" remote="github" revision="refs/heads/master">
     <copyfile dest="Makefile" src="core/root.mk"/>
